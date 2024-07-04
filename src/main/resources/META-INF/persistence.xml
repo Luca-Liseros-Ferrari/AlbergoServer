@@ -3,16 +3,16 @@
     <persistence-unit name="DefaultPersistenceUnit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>net.andreabattista.esercitazioneesame.model.Albergo</class>
-        <class>net.andreabattista.esercitazioneesame.model.Camera</class>
-        <class>net.andreabattista.esercitazioneesame.model.Prenotazione</class>
-        <class>net.andreabattista.esercitazioneesame.model.Persona</class>
+        <class>com.ferrari.esercitazioneesame.model.Albergo</class>
+        <class>com.ferrari.esercitazioneesame.model.Camera</class>
+        <class>com.ferrari.esercitazioneesame.model.Prenotazione</class>
+        <class>com.ferrari.esercitazioneesame.model.Persona</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/esercitazione_esame?useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/albergoDue?useSSL=false&amp;allowPublicKeyRetrieval=true"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="password"/>
+            <property name="javax.persistence.jdbc.password" value="edam15!k2Mp_"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
